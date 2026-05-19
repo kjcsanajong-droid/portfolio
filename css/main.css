@@ -346,7 +346,7 @@ footer {
 
 
 #about-page {
-    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/kane_pf.jpeg');
+    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/kane-pf.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top; 
@@ -358,7 +358,7 @@ footer {
 
 /* 1. Unieke achtergrond voor de 'About' pagina (Jouw Profiel) */
 #about-page {
-    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/kane_pf.jpeg');
+    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/kane-pf.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top; 
@@ -370,7 +370,7 @@ footer {
 #work-page,
 #contact-page {
     
-    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/BG_photo.jpg');
+    background-image: linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)), url('../img/bg-photo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
