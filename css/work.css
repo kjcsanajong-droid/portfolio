@@ -1,0 +1,77 @@
+.section-intro {
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Projectkaart met de nieuwe blauwe gloed bij een hover */
+.project-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 2.5rem;
+    border-radius: 8px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 20px rgba(0, 82, 255, 0.15); /* Subtiele blauwe gloed */
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.project-header h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* Badges aangepast naar een stijlvolle saffierblauwe tint */
+.badge {
+    font-size: 0.75rem;
+    background: rgba(0, 82, 255, 0.12);
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #4d88ff; /* Iets lichtere, goed leesbare tint blauw voor tekst */
+    border: 1px solid rgba(0, 82, 255, 0.3);
+}
+
+
+.tech-stack {
+    font-family: monospace;
+    color: var(--accent-color);
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.project-card p:not(.tech-stack) {
+    color: var(--text-muted);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+
+.project-link:hover {
+    color: var(--accent-color);
+}
