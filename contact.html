@@ -37,18 +37,20 @@
             </div>
 
             <div class="form-wrapper">
-                <form id="contact-form">
+                <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="301d45ac-f3a3-4242-916f-b82838256be3">
+                    
                     <div class="form-group">
                         <label for="name">Naam</label>
-                        <input type="text" id="name" placeholder="Uw volledige naam" required>
+                        <input type="text" id="name" name="name" placeholder="Uw volledige naam" required>
                     </div>
                     <div class="form-group">
                         <label for="email">E-mailadres</label>
-                        <input type="email" id="email" placeholder="Uw e-mailadres" required>
+                        <input type="email" id="email" name="email" placeholder="Uw e-mailadres" required>
                     </div>
                     <div class="form-group">
                         <label for="message">Bericht</label>
-                        <textarea id="message" rows="6" placeholder="Wat wilt u bespreken?" required></textarea>
+                        <textarea id="message" name="message" rows="6" placeholder="Wat wilt u bespreken?" required></textarea>
                     </div>
                     <button type="submit" class="btn">Verstuur Bericht</button>
                 </form>
@@ -64,5 +66,5 @@
 
     <script src="js/main.js"></script>
     <script src="js/contact.js"></script>
-<body id="contact-page">
+</body>
 </html>
